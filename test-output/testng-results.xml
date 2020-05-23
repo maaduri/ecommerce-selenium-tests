@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14482" started-at="2020-05-21T23:31:49Z" finished-at="2020-05-21T23:32:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14482" started-at="2020-05-21T23:31:49Z" finished-at="2020-05-21T23:32:04Z">
+      <class name="com.staples.RelatedCat">
+        <test-method status="PASS" signature="menu()[pri:0, instance:com.staples.RelatedCat@1b0375b3]" name="menu" duration-ms="14446" started-at="2020-05-21T16:31:49Z" finished-at="2020-05-21T16:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+      </class> <!-- com.staples.RelatedCat -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
