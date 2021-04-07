@@ -44,6 +44,17 @@ public class RegistartionTest extends ApexBaseTest implements RegistrationConsta
                                                           "Arlington blvd","Dublin","New york","USA","73827","6346324","83246",
                                                            "karthi123","karthi123");
       	}
+      	
+      	@Test
+      	public void testwithoutCity() throws InterruptedException
+      	{
+      		RegistrationPage registrationPage = new RegistrationPage(driver);
+      		//perform the action
+      		registrationPage.clickonSignupBtnWithoutEmail("Karthi", "chennei","01","02","1986","ninnu@gmail.com", "444",
+                                                          "Arlington blvd","New york","USA","73827","6346324","83246",
+                                                           "karthi123","karthi123");
+      		
+      	}
 
 
 }
